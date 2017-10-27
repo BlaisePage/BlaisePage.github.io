@@ -1,8 +1,7 @@
 # Site Settings
 title: "Blaise Page bbb"
 email: "BlaisePageTech@gmail.com"
-description: > # 
-Hello, my name is Blaise Page. I developed this website to share projects of mine and expand my professional network. Enjoy!
+description: "Hello, my name is Blaise Page. I developed this website to share projects of mine and expand my professional network. Enjoy!"
 baseurl: ""
 url: "http://yourdomain.com"
 github_username:  BlaisePage
