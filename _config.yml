@@ -18,6 +18,7 @@ github_username:  BlaisePage
 
 # Build settings
 markdown: kramdown
+permalink: pretty
 
 # Navigation
 navigationLinks:
