@@ -1,20 +1,31 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+# Plugins
+gems:
+- jekyll-sitemap
+safe: false
 
-# Site settings
-title: Blaise Page
-email: BlaisePageTech@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Hello, my name is Blaise Page. I developed this website to 
-  make projects of mine public and expand my prfessional network.
-  Enjoy!
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+# Build Settings
+markdown: kramdown
+permalink: pretty
+exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
+
+# Site Settings
+title: "Blaise Page"
+email: "BlaisePageTech@gmail.com"
+description: > # 
+Hello, my name is Blaise Page. I developed this website to share projects of mine and expand my professional network. Enjoy!
+baseurl: ""
+url: "http://yourdomain.com"
 github_username:  BlaisePage
 
-# Build settings
-markdown: kramdown
+
+# Navigation
+navigationLinks:
+ - {permalink: "/", text: "Home"}
+ - {permalink: "/blog/", text: "Blog"}
+ - {permalink: "/about/", text: "About"}
+
+# Hero Block
+heroImage: "hero.jpg"
+heroTitle: "Blaise Page <typeout>"
+typeoutTextValues: '"", "Programmer", "", "Gamer", "Developer"'
+typeoutFallback: "Season"
