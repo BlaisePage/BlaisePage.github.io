@@ -1,8 +1,3 @@
-
-# Build Settings
-markdown: kramdown
-permalink: pretty
-
 # Site Settings
 title: "Blaise Page bbb"
 email: "BlaisePageTech@gmail.com"
@@ -11,6 +6,10 @@ Hello, my name is Blaise Page. I developed this website to share projects of min
 baseurl: ""
 url: "http://yourdomain.com"
 github_username:  BlaisePage
+
+# Build Settings
+markdown: kramdown
+permalink: pretty
 
 
 # Navigation
