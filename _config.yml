@@ -10,15 +10,3 @@ github_username:  BlaisePage
 markdown: kramdown
 permalink: pretty
 
-
-# Navigation
-navigationLinks:
- - {permalink: "/", text: "Home"}
- - {permalink: "/blog/", text: "Blog"}
- - {permalink: "/about/", text: "About"}
-
-# Hero Block
-heroImage: "hero.jpg"
-heroTitle: "Blaise Page <typeout>"
-typeoutTextValues: '"", "Programmer", "", "Gamer", "Developer"'
-typeoutFallback: "Season"
