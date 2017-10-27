@@ -20,3 +20,8 @@ github_username:  BlaisePage
 markdown: kramdown
 permalink: pretty
 
+# Hero Block
+heroImage: "hero.jpg"
+heroTitle: "Blaise Page <typeout>"
+typeoutTextValues: '"", "Programmer", "", "Gamer", "Developer"'
+typeoutFallback: "Season"
